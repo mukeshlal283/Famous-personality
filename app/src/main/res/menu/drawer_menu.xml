@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@id/anantIntroFragment"
+            android:title="@string/anant_drawer_1"/>
+        <item
+            android:id="@id/anantEarlyLifeFragment"
+            android:title="@string/anant_drawer_2"/>
+        <item
+            android:id="@id/anantRevolutionaryFragment"
+            android:title="@string/anant_drawer_3"/>
+        <item
+            android:id="@+id/d"
+            android:title="@string/anant_drawer_4"
+            android:icon="@drawable/baseline_keyboard_arrow_down_24" />
+        <item
+            android:id="@id/anantSymbolOfYouthFragment"
+            android:title="@string/anant_drawer_5"/>
+        <item
+            android:id="@id/anantIdeologicalBeliefFragment"
+            android:title="@string/anant_drawer_6"/>
+        <item
+            android:id="@id/anantBritishResponseFragment"
+            android:title="@string/anant_drawer_7"/>
+        <item
+            android:id="@id/anantPsycologocalFragment"
+            android:title="@string/anant_drawer_8"/>
+        <item
+            android:id="@id/anantLegacyFragment"
+            android:title="@string/anant_drawer_9"/>
+        <item
+            android:id="@id/anantRadicalRevolutionaryVisionFragment"
+            android:title="@string/anant_drawer_10"/>
+
+    </group>
+
+</menu>

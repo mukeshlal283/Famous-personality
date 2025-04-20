@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottm_nav1"
+        android:title="1892-1906"
+        android:icon="@drawable/open_book"/>
+
+    <item
+        android:id="@+id/bottm_nav2"
+        android:title="1906-1908"
+        android:icon="@drawable/fist" />
+
+    <item
+        android:id="@+id/bottm_nav3"
+        android:title="1909"
+        android:icon="@drawable/vs" />
+
+    <item
+        android:id="@+id/bottm_nav4"
+        android:title="1910"
+        android:icon="@drawable/gallows" />
+
+    <item
+        android:id="@+id/bottm_nav5"
+        android:title="More"
+        android:icon="@drawable/megaphone" />
+
+</menu>

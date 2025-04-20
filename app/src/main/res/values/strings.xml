@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name" translatable="false">FamousPersonality</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    //drawer Anant
+    <string name="anant_first_name">Anant Laxman</string>
+    <string name="anant_last_name">Kanhere</string>
+    <string name="anant_age">Age 18 years</string>
+    <string name="anant_drawer_intro">Anant Laxman Kanhere\'s sacrifice left an indelible mark on India’s struggle for independence. His courage, commitment, and willingness to embrace martyrdom for the cause of freedom remain a powerful inspiration for generations to come.</string>
+    <string name="change_language">Change Language</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_english" translatable="false">English</string>
+
+    <string name="anant_drawer_1">Introduction to Anant Laxman Kanhere</string>
+    <string name="anant_drawer_2">Kanhere’s Early Life &amp; Revolutionary Roots</string>
+    <string name="anant_drawer_3">Revolutionary Movements in Maharashtra</string>
+    <string name="anant_drawer_4">Murder for a Murder</string>
+    <string name="anant_drawer_4.1">A.M.T. Jackson: The Marked British Officer</string>
+    <string name="anant_drawer_4.2">The Assassination and Its Aftermath</string>
+    <string name="anant_drawer_4.3">Media and Public Reactions to the Assassination </string>
+    <string name="anant_drawer_4.4">Impact on the Indian Revolutionary Movement</string>
+    <string name="anant_drawer_5">Kanhere as a Symbol of Youth Rebellion</string>
+    <string name="anant_drawer_6">Kanhere’s Ideological Beliefs</string>
+    <string name="anant_drawer_7">British Colonial Response to Revolutionary Movements</string>
+    <string name="anant_drawer_8">Psychological and Emotional Aspects</string>
+    <string name="anant_drawer_9">Legacy and Commemoration</string>
+    <string name="anant_drawer_10">Radical Revolutionary Vision</string>
+
+    //toolbar
+    <string name="toolbar_heading">PRIDE OF NASHIK</string>
+
+    //homeFragment or Bottom first Fragment
+    <string name="before_main_heading">1906 - 1910  | 18 years</string>
+    <string name="main_heading_part1">A LIFE OF</string>
+    <string name="main_heading_part2">REVOLUTIONARY</string>
+    <string name="main_heading_part3">ZEAL</string>
+    <string name="home_description">Anant Laxman Kanhere was born in 1892 in a modest Marathi Brahmin family in Maharashtra during British colonial rule. His upbringing was deeply rooted in Hindu traditions and nationalistic values, which shaped his worldview from an early age. His father, Laxman Kanhere, was a respected figure, while his mother was a devoted homemaker. The cultural and political environment in Maharashtra, particularly the rise of nationalist sentiments, had a profound impact on Kanhere’s young mind.</string>
+    <string name="readMore">READ MORE</string>
+
+    //bottom second fragment
+    <string name="date_2">1908</string>
+    <string name="heading2_part1">TURNING POINT</string>
+    <string name="heading2_part2">Imprisonment of\nGanesh Savarkar</string>
+    <string name="description2">Ganesh Savarkar was sentenced to life in jail at Cellular Jail, Andaman Islands, by the British in 1908. Kanhere and other revolutionaries were profoundly offended by this. It signalled a turning point and strengthened his will to oppose British officials in charge of colonial persecution. Identifying A.M.T. Jackson, the District Magistrate of Nashik, as a main target, his group decided to react.</string>
+
+    //bottom third fragment
+    <string name="date_3">1909</string>
+    <string name="heading3_part1">THE SCHEME TO</string>
+    <string name="heading3_part2">kill AMT Jackson</string>
+    <string name="description3">Midway through 1909, Kanhere and his allies, Vinayak Narayan Deshpande and Krishnaji Gopal Karve, painstakingly prepared Jackson\'s murder. For the attack, Kanhere bought a Browning pistol made in Belgium. At the Vijayanand Theatre in Nashik, Kanhere approached Jackson on December 21, 1909, firing close-range shots. He was captured right away, and the deed rocked British India and strengthened revolutionary organisations.</string>
+
+    //bottom fourth fragment
+    <string name="date_4">1910</string>
+    <string name="heading4">TRIAL AND\nEXECUTION</string>
+    <string name="description4">Early in 1910, Kanhere and his other conspirators went before the courts. He stayed strong in his convictions despite heavy accusations, supporting his behaviour, as required for India\'s freedom. Not found guilty of murder, he received a death sentence. Anant Laxman Kanhere, only eighteen, was hanged in Thane Central Jail on April 19, 1910, making him among the youngest revolutionary victims in India.</string>
+
+    //bottom fourth fragment
+    <string name="date_5">1909</string>
+    <string name="heading5">MEDIA \nREACTION</string>
+    <string name="description5">Indian newspapers, in contrast, responded with admiration, sorrow, and political reflection. Many hailed Kanhere as a martyr and a courageous revolutionary who sacrificed himself to challenge British oppression. The media emphasised the repressive colonial policies that drove him to act, portraying his execution as a tragic loss for the nationalist movement.</string>
+
+    //anant introduction page
+    <string name="anant_full_name">Anant Laxman Kanhere</string>
+    <string name="young_revo">The Young Revolutionary</string>
+    <string name="anant_para1">Anant Laxman Kanhere, born in 1891 in Nashik, Maharashtra, was a young revolutionary who opposed British rule. Inspired by India\'s nationalist movement, he assassinated British officer A.M.T. Jackson in 1909 at just 18, showcasing his defiance against colonial oppression. His bold act sparked further revolutionary activities in Maharashtra. Though executed in 1910, Kanhere’s sacrifice remains a powerful symbol of resistance and youthful bravery in India’s fight for independence.</string>
+    <string name="anant_heading1">Introduction to Anant Laxman Kanhere</string>
+    <string name="anant_title1">Anant Laxman Kanhere was a young revolutionary who played a crucial role in India’s struggle for independence. Born in 1891 in Nashik, Maharashtra, he grew up amidst growing nationalist sentiments. His assassination of British officer A.M.T. Jackson in 1909 was a bold act of resistance against colonial rule. Though executed at just 18, Kanhere remains a symbol of youthful defiance in India\'s fight for freedom.</string>
+    <string name="anant_heading2">Colonial Rule and the Rise\nof Nationalism in Maharashtra</string>
+    <string name="anant_title2">In the late 19th and early 20th centuries, Maharashtra was under British rule, facing economic exploitation, social disruption, and political unrest. The British administration replaced local governance, imposed new taxes, and disrupted traditional structures, causing widespread resentment. Their policies led to economic hardships and social imbalances and fuelled nationalist sentiment.\n\nMaharashtra played a key role in the nationalist movement, driven by leaders like Bal Gangadhar Tilak, whose call for Swaraj inspired mass action. Nationalism in the region was not just political but a cultural reassertion against colonial dominance.</string>
+    <string name="anant_heading3">Role of Maharashtra in\nRevolutionary Movements</string>
+    <string name="anant_title3">Maharashtra became a hub for revolutionary activities, driven by disillusionment with moderate political approaches.\n\n<b>Hotbed of Revolutionary Activities: </b>The region’s political and social climate fostered radicalism, leading to the rise of revolutionary groups.\n\n<b>Abhinav Bharat Society: </b>Founded by Vinayak and Ganesh Savarkar, this organisation promoted an armed struggle against British rule. \n\n<b>Youth Participation: </b>Young revolutionaries, frustrated with moderate politics, engaged in secret meetings and direct action against British officials, including Anant Laxman Kanhere.</string>
+    <string name="anant_heading4">Influence of Revolutionary Groups</string>
+    <string name="anant_title4">The early 20th century saw an increase in radical movements like the Abhinav Bharat Society.\n\n<b>Founding of Abhinav Bharat: </b>Established in 1904, the society was a response to the failure of moderate politics, advocating for armed resistance.\n\n<b>Objectives and Activities: </b>The group focused on recruiting youth, conducting secret meetings, and planning acts of defiance, including bombings and assassinations.\n\n<b>Impact Across Maharashtra: </b>The society built a network of revolutionaries committed to India’s liberation.</string>
+
+    //Kanhere’s Early Life and Revolutionary Roots
+    <string name="anant_heading5">Kanhere’s Early Life &amp; Revolutionary Roots</string>
+    <string name="anant_title5">Anant Laxman Kanhere was born into a turbulent socio-political climate where nationalist sentiments were growing, particularly in Maharashtra. Raised in a family with deep regional pride, Kanhere was influenced by traditional values and the rising wave of anti-colonial resistance. His education in Aurangabad exposed him to a melting pot of political ideologies, where he closely followed nationalist movements through newspapers, literature, and public speeches. The moderate approach of the Indian National Congress was seen as slow and ineffective, pushing him towards radicalism. Revolutionary leaders like Bal Gangadhar Tilak and organisations such as Abhinav Bharat played a key role in shaping his belief in armed resistance against British rule.</string>
+    <string name="anant_heading6">Early Life and Revolutionary Influences</string>
+    <string name="anant_title6">Kanhere was born into a modest Brahmin family and was deeply influenced by nationalist ideologies, particularly those of Bal Gangadhar Tilak and the revolutionary movements in Maharashtra. He joined secret revolutionary groups, believing that armed resistance was necessary to overthrow British rule. Influenced by thinkers like Tilak and Swami Vivekananda, he developed a strong sense of patriotism. Stories from Hindu epics like the Ramayana and Mahabharata reinforced his belief in heroism and justice, shaping his path as a revolutionary.</string>
+    <string name="anant_heading7">Education &amp; Influences</string>
+    <string name="anant_title7">Anant Laxman Kanhere received his early education in a village school, where he was introduced to basic academics alongside the rising wave of nationalist ideas. The early 20th century saw growing political awareness, fueled by leaders like Bal Gangadhar Tilak and Lala Lajpat Rai, whose calls for self-rule deeply influenced young minds, including Anant’s. Beyond conventional subjects, he was immersed in Indian history, culture, and spiritual teachings from figures like Swami Vivekananda and texts such as the Bhagavad Gita. These instilled in him a sense of pride and a burning desire to free India from colonial rule.</string>
+    <string name="anant_heading8">Cultural &amp; Spiritual Foundations</string>
+    <string name="anant_title8">Anant’s upbringing was deeply rooted in Hindu traditions, where concepts like Dharma and Karma shaped his sense of duty. Inspired by epics like the Ramayana and Mahabharata, he developed strong ideals of heroism and justice. Festivals like Ganesh Chaturthi and Diwali reinforced unity and righteousness, strengthening his resolve to fight against oppression.</string>
+    <string name="anant_heading9">Formative Years &amp; Nationalist Awakening</string>
+    <string name="anant_title9">Anant’s childhood blended traditional values with emerging nationalist ideologies. Raised in a modest family during a period of reform and resistance, his education and cultural heritage shaped his worldview. These formative influences laid the foundation for his role in the independence movement, where he transformed his beliefs into decisive action against British rule.</string>
+
+    //Revolutionary Movement in Maharashtra
+    <string name="anant_heading10">Revolutionary Movements\nin Maharashtra</string>
+    <string name="anant_title10">The state became a hub for revolutionary activities, with young radicals forming groups like the Abhinav Bharat Society, founded by Vinayak and Ganesh Savarkar. Disillusioned with moderate politics, these revolutionaries turned to armed resistance, advocating direct action against British rule.</string>
+    <string name="anant_heading11">Influence of Abhinav Bharat Society</string>
+    <string name="anant_title11">Founded in 1904, Abhinav Bharat was a secret society committed to overthrowing the British through armed struggle. Unlike the Indian National Congress, it promoted violent resistance and inspired young revolutionaries like Kanhere.</string>
+    <string name="anant_heading12">Vinayak and Ganesh Savarkar’s Influence</string>
+    <string name="anant_title12">The Savarkar brothers were instrumental in inspiring young revolutionaries.\n\n<b>Vinayak Savarkar\’s Ideology:</b> A staunch nationalist, he reinterpreted the 1857 Revolt as India\’s first war of independence. His writings emphasised Hindutva, armed resistance, and cultural revival.\n\n<b>Ganesh Savarkar\’s Role:</b> He worked closely with his brother to recruit and train Abhinav Bharat revolutionaries.\n\nThe Savarkar\'s vision of militant nationalism drew Anant Laxman Kanhere into revolutionary activities.</string>
+    <string name="anant_heading13">Philosophy of Armed Revolution</string>
+    <string name="anant_title13">The failure of moderate approaches led many, including Kanhere, to adopt violent resistance.\n\n<b>Disillusionment with Moderation:</b> Leaders like Dadabhai Naoroji and Gopal Krishna Gokhale advocated slow reforms, which frustrated young nationalists.\n\n<b>Justification for Armed Struggle:</b> Inspired by the Savarkars, revolutionaries believed confrontation was necessary to challenge British rule.\n\n<b>Kanhere’s Transition to Violent Resistance:</b> His involvement in the assassination of A.M.T. Jackson reflected his commitment to revolutionary action.</string>
+    <string name="anant_heading14">Impact of Revolutionary Activities</string>
+    <string name="anant_title14">Revolutionary movements in Maharashtra left a lasting impact on India’s independence struggle.\n\n<b>Influence on Future Freedom Fighters:</b> The acts of groups like Abhinav Bharat inspired later revolutionaries.\n\n<b>Contribution to Independence:</b> Though violent resistance was controversial, it played a crucial role in India’s fight against colonial rule.</string>
+    <string name="anant_heading15">Key Revolutionary Events in Kanhere’s Life</string>
+    <string name="anant_heading15.1">Partition of Bengal and Its Effects</string>
+    <string name="anant_title15.1">The partition of Bengal in 1905 was not just a political maneuver; it was a watershed moment that deeply influenced nationalists across India, including Anant Laxman Kanhere.\n\n<b>Personal Impact</b>: The partition was seen as a direct attack on Indian unity and pride. Many Indians, including Kanhere, viewed it as a blatant example of British divide-and-rule tactics, exploiting communal differences to weaken the nationalist movement. The betrayal fueled a wave of radicalism.\n\n<b>Emotional Impact:</b> The partition was perceived as a deliberate attempt to humiliate and destabilise the Indian populace. For Kanhere, it solidified his resolve to challenge British rule. This event transformed abstract political dissatisfaction into a concrete, personal mission for him.\n\n<b>Response to the Partition:</b> The nationwide reaction included widespread protests, boycotts of British goods, and a surge in revolutionary activities. In Maharashtra, the sense of injustice created fertile ground for radical ideas to take root, further pushing Kanhere toward aggressive resistance.</string>
+    <string name="anant_heading15.2">Ganesh Savarkar’s Arrest</string>
+    <string name="anant_title15.2">Ganesh Savarkar’s arrest was a deeply personal and symbolic blow to the revolutionary movement. His imprisonment at the Cellular Jail in Kala Pani became a turning point for many young nationalists, including Kanhere.\n\n<b>Emotional Impact:</b> Ganesh was not just a leader but a symbol of sacrifice and commitment to the cause. His brutal punishment served as a grim reminder of the hardships revolutionaries faced. For Kanhere, the personal connection to Ganesh Savarkar intensified his resolve to continue the struggle.\n\n<b>Symbol of Resistance:</b> The harsh treatment of Ganesh Savarkar highlighted the ruthless nature of British colonial rule. His imprisonment became a powerful symbol of defiance against oppression, reinforcing Kanhere’s belief that armed resistance was necessary.\n\n<b>Reinforcement of Revolutionary Resolve:</b> The realisation that even close comrades were not immune to British brutality acted as a catalyst for Kanhere’s revolutionary activities. His involvement in planning the assassination of A.M.T. Jackson can be seen as a direct response to these harsh realities.</string>
+    <string name="anant_heading15.3">Other Revolutionary Activities in Maharashtra</string>
+    <string name="anant_title15.3">Maharashtra during this period was a hub of revolutionary activity, providing Kanhere with a vibrant theatre of resistance.\n\n<b>Network of Revolutionaries:</b> Maharashtra’s revolutionary network was extensive and dynamic, comprising seasoned leaders and young idealists united by the goal of overthrowing British rule. This network facilitated the exchange of ideas, resources, and strategies.\n\n<b>Influence of Revolutionary Figures:</b> Figures like Prafulla Chaki and Khudiram Bose were active in Maharashtra, contributing to a culture of radical resistance. Their daring actions and sacrifices inspired Kanhere, reinforcing his commitment to revolutionary methods.\n\n<b>Public Sentiment and Mobilization:</b> The revolutionary activities in Maharashtra were closely linked with public sentiment. Growing nationalist fervour and discontent with British rule provided moral and logistical support for the movement.\n\n<b>Kanhere’s Role and Growth:</b> In this environment, Kanhere evolved from a passionate nationalist to a key revolutionary figure. His involvement in planning A.M.T. Jackson’s assassination reflected the broader revolutionary climate in Maharashtra, which shaped his ideology and commitment to the cause.</string>
+
+
+    //A.M.T. Jackson: The Marked British Officer
+    <string name="anant_heading16">A.M.T. Jackson: The Marked British Officer</string>
+    <string name="anant_title16">Arthur Mason Tippetts Jackson was the British District Collector of Nashik. Though regarded as a scholar of Indian culture and languages, he was also a symbol of British imperial rule. His deep knowledge of Indian history earned him the reputation of an "Indophile" among his contemporaries. Despite his academic interests, Jackson enforced colonial policies, including crackdowns on revolutionary activities. His involvement in suppressing nationalist uprisings and ordering arrests made him a direct enemy in the eyes of young revolutionaries. Kanhere and his associates saw eliminating Jackson as an act of defiance against British oppression.</string>
+    <string name="anant_heading17">A.M.T. Jackson: The Target of Revolutionary Anger</string>
+    <string name="anant_title17">Jackson was a British officer known for his deep interest in Indian culture and history. Despite this, revolutionaries viewed him as an enforcer of colonial rule, responsible for persecuting nationalist leaders. His role in crackdowns on freedom fighters in Maharashtra made him a prime target for retaliation, leading to Kanhere’s decision to assassinate him.</string>
+    <string name="anant_heading18">The Plot to Assassinate Jackson</string>
+    <string name="anant_heading18.1">Planning of the Assassination of A.M.T. Jackson</string>
+    <string name="anant_title18.1">The assassination of A.M.T. Jackson was a meticulously planned operation carried out by Anant Laxman Kanhere, Krishna Karve, and Vinayak Deshpande, symbolising a significant act of resistance against British rule.\n\nJackson, a British official known for his harsh suppression of nationalist movements in Maharashtra, was targeted not only for his administrative position but as a representation of colonial oppression. The revolutionaries believed that eliminating a high-profile British officer would send a strong message to both the colonial government and the Indian public, inspiring further resistance.\n\nThe planning involved extensive intelligence gathering on Jackson’s movements, including his office hours and daily routes. The revolutionaries undertook this surveillance discreetly to avoid suspicion. Acquiring firearms and other resources was another major challenge, requiring covert operations and trusted contacts within the revolutionary network. Secret meetings were held to discuss execution strategies, and each member of the team was assigned specific roles to ensure precision and effectiveness.\n\nKarve played a crucial role in providing logistical support, securing safe houses, and ensuring the smooth coordination of revolutionary activities, while Deshpande contributed significantly to the strategic and tactical planning. Contingency plans were developed to address potential challenges, including increased security or possible arrests, highlighting their meticulous approach.\n\nThis collective effort showcased the revolutionaries’ dedication, intelligence, and willingness to risk their lives for India’s independence. The assassination of Jackson was not just a retaliatory act but a carefully orchestrated mission aimed at shaking the British administration and reinforcing the revolutionary movement in Maharashtra.</string>
+    <string name="anant_heading18.2">Setting the Scene</string>
+    <string name="anant_title18.2">The assassination of A.M.T. Jackson took place in Nashik, Maharashtra, amidst rising nationalist unrest. The venue, Vijayanand Theatre, was a well-known cultural hub, often hosting public gatherings and performances. On the day of the assassination, the theatre was filled with patrons unaware of the revolutionary act about to unfold. The setting was chosen strategically to ensure the assassination was highly visible, sending a strong message to both the local populace and British authorities.</string>
+    <string name="anant_heading18.3">Execution of the Plan</string>
+    <string name="anant_title18.3">Anant Laxman Kanhere, the mastermind behind the operation, executed the assassination with precision. As the theatrical event progressed, he manoeuvred through the crowd to position himself near Jackson. Concealing his weapon and intentions, Kanhere seized the opportune moment to fire at Jackson, instantly killing him. The theatre erupted in chaos as shocked attendees scrambled in confusion. Kanhere attempted to escape as planned, but the rapid British response soon led to his capture. The assassination was swift and deliberate, making an immediate impact on both British officials and the revolutionary movement.</string>
+
+    //The Assassination and Its Aftermath
+    <string name="anant_heading19">The Assassination and\nIts Aftermath</string>
+    <string name="anant_title19">The assassination of A.M.T. Jackson had a profound impact on both the British administration and the revolutionary movement. For the British, it was a stark reminder of rising militancy among India\'s educated youth. In response, colonial authorities intensified their crackdown on underground revolutionary networks, leading to widespread arrests and executions. The Nashik Conspiracy Case, which followed, exposed the intricate web of revolutionaries in Maharashtra. While the British attempted to dismantle these networks, Kanhere\'s sacrifice only strengthened the resolve of future revolutionaries. Leaders like Bhagat Singh and Chandrasekhar Azad later cited his actions as a crucial moment in India\'s struggle for independence.</string>
+    <string name="anant_heading20">The Assassination of A.M.T. Jackson</string>
+    <string name="anant_title20">On December 21, 1909, Kanhere assassinated A.M.T. Jackson, the British District Collector of Nashik, during a public event at a local theatre. Though Jackson was known as an Indophile, revolutionaries saw him as a symbol of British oppression, responsible for suppressing nationalist activities. Kanhere shot him at close range, making a daring statement against colonial rule.</string>
+    <string name="anant_heading21">Public and British Reaction</string>
+    <string name="anant_title21">Jackson’s assassination sent shockwaves across India. For the British, it was a direct challenge to colonial authority, prompting an intense crackdown on revolutionary activities, increased surveillance, and widespread arrests. Nationalists, however, viewed Kanhere as a hero who had struck a bold blow against British oppression. While some saw the act as a justified resistance against colonial rule, others in the general public were unsettled by the violence and feared the British reprisal. The event intensified debates within the nationalist movement about the use of violence as a strategy for independence.</string>
+
+    //Media and Public Reactions to the Assassination of A.M.T. Jackson
+    <string name="anant_heading22">Media and Public Reactions to the Assassination of A.M.T. Jackson</string>
+    <string name="anant_heading22.1">British Media Coverage</string>
+    <string name="anant_title22.1">The British press extensively covered the assassination, portraying it as a serious threat to colonial rule. Reports were filled with alarm and condemnation, depicting Kanhere as a radical insurgent whose actions symbolised increasing unrest in India.\n\nBritish newspapers framed Kanhere as a criminal rather than a political revolutionary, emphasising the violent nature of the assassination. This portrayal aimed to justify the colonial government’s harsh measures against revolutionary activities and reinforced the necessity of stringent security policies. The coverage largely ignored the broader political context that led to the assassination, instead focusing on the need for order and stability in British-controlled India.</string>
+    <string name="anant_heading22.2">Indian Media Reaction</string>
+    <string name="anant_title22.2">Indian newspapers, in contrast, responded with admiration, sorrow, and political reflection. Many hailed Kanhere as a martyr and a courageous revolutionary who sacrificed himself to challenge British oppression. The media emphasised the repressive colonial policies that drove him to act, portraying his execution as a tragic loss for the nationalist movement.\n\nNationalist leaders used the assassination as a rallying point to strengthen public support for independence. The coverage helped galvanise resistance, inspiring others to continue the fight against British rule despite the colonial authorities’ efforts to suppress it.</string>
+    <string name="anant_heading22.3">Debates Among Indian Leaders</string>
+    <string name="anant_title22.3">The assassination of Jackson and Kanhere’s subsequent execution sparked significant debates within the Indian nationalist movement. The primary discussion centred on the use of violence versus non-violent resistance as a means to achieve independence.\n\nModerate leaders advocating for constitutional reforms and peaceful protest were concerned that acts of violence could alienate supporters and undermine the nationalist cause. They believed that political negotiations and legal reforms were the best path to independence.\n\nOn the other hand, extremist revolutionaries argued that violent resistance was necessary to counter British oppression. They contended that non-violent methods had yielded little progress, and direct action was the only way to challenge the colonial government effectively. For them, Kanhere’s assassination of Jackson was a courageous stand against injustice meant to inspire further resistance.\n\nThis ideological divide shaped the future strategies of the independence movement. The assassination became a focal point in the debate, influencing the direction of the struggle and fueling ongoing discussions on the most effective approach to achieving freedom from British rule.</string>
+
+    //Impact on the Indian Revolutionary Movement
+    <string name="anant_heading23">Impact on the Indian Revolutionary Movement</string>
+    <string name="anant_title23">Anant Laxman Kanhere’s act of defiance deeply influenced India’s revolutionary movement. His assassination of A.M.T. Jackson showed his fearless commitment to freedom. This act inspired many young revolutionaries to resist British rule. His bravery became a symbol of sacrifice in the struggle for independence. Revolutionary circles saw his action as a bold challenge to colonial oppression. His legacy fueled the determination of future freedom fighters.</string>
+    <string name="anant_heading24">Inspiration for Future Revolutionaries</string>
+    <string name="anant_title24">Kanhere’s sacrifice motivated key figures like Bhagat Singh and Chandrashekhar Azad. Bhagat Singh admired Kanhere’s courage and willingness to embrace radical measures. Singh followed similar methods in his fight for India’s independence. Chandrashekhar Azad also drew inspiration from Kanhere’s defiance and leadership. Kanhere’s actions reinforced the belief that freedom required sacrifices. His legacy lived on through revolutionaries who fought against British rule.</string>
+    <string name="anant_heading25">Increased Surveillance by British Authorities</string>
+    <string name="anant_title25">The British reacted harshly after Kanhere assassinated A.M.T. Jackson. They increased surveillance and cracked down on revolutionary activities. In Maharashtra, authorities arrested many suspected revolutionaries. Police closely monitored political meetings and communications. Revolutionary groups were forced into hiding to escape British control. This repression temporarily slowed movements but strengthened revolutionary resolve.</string>
+    <string name="anant_heading26">Strengthening of the Abhinav Bharat Society</string>
+    <string name="anant_title26">Kanhere’s martyrdom strengthened the revolutionary group Abhinav Bharat Society. Founded by Vinayak and Ganesh Savarkar, the society gained more support. His sacrifice inspired members to intensify their efforts against the British. Society became more organised, expanding its underground network. British repression forced them to work secretly and recruit more followers. Kanhere’s legacy played a crucial role in the fight for independence.</string>
+    <string name="anant_heading27">Role of Youth in Revolutionary Movements</string>
+    <string name="anant_title27">Kanhere symbolised the courage of young revolutionaries in India’s independence struggle. His assassination of Jackson reflected youth-led defiance against British rule. Many young Indians admired his bravery and dedication to the cause. His actions proved that youth could drive radical change in society. Kanhere’s sacrifice encouraged more young revolutionaries to take bold steps. His legacy showed that age was no barrier to fighting for freedom.</string>
+
+    //Kanhere as a Symbol of Youth Rebellion
+    <string name="anant_heading28">Kanhere as a Symbol of\nYouth Rebellion</string>
+    <string name="anant_title28">Kanhere’s youth made him a powerful symbol of resistance against British rule. His willingness to sacrifice for independence inspired many young freedom fighters. His radical action reflected growing impatience with peaceful resistance methods. Many saw him as a fearless leader who challenged colonial oppression. His legacy inspired others to adopt more aggressive tactics for independence. Kanhere’s bold defiance showed that youth could lead the revolutionary struggle.</string>
+    <string name="anant_heading29">Comparison with Other Young Revolutionaries</string>
+    <string name="anant_heading29.1">Khudiram Bose</string>
+    <string name="anant_title29.1">Khudiram Bose was among the youngest revolutionaries to be executed by the British. He attempted to assassinate a British official in 1908 at the age of 18. His bravery and sacrifice became a symbol of youthful defiance. He believed that armed struggle was the only way to gain independence. His execution sparked outrage and inspired many to join the revolution. Bose’s fearless approach showed the British that Indian youth would not back down.</string>
+    <string name="anant_heading29.2">Prafulla Chaki</string>
+    <string name="anant_title29.2">Prafulla Chaki was a young revolutionary known for his commitment to the cause. He was involved in an assassination attempt against a British official. Chaki refused to be captured and chose to end his own life. His bravery was admired by many in the revolutionary movement. His actions reflected the extreme sacrifices made by young revolutionaries. Chaki’s story inspired future generations to continue the fight for freedom.</string>
+    <string name="anant_heading29.3">Comparative Analysis</string>
+    <string name="anant_title29.3">Kanhere, Bose, and Chaki all demonstrated exceptional courage against British rule. Each of them embraced radical methods to challenge colonial oppression. Kanhere targeted a specific British official to disrupt colonial authority. Bose and Chaki participated in broader revolutionary conspiracies and attacks. Their sacrifices collectively fueled the Indian independence movement. Their actions proved that youth played a crucial role in challenging the British.</string>
+
+    //Kanhere’s Ideological Beliefs
+    <string name="anant_heading30">Kanhere’s Ideological Beliefs</string>
+    <string name="anant_heading30.1">Political Philosophy</string>
+    <string name="anant_title30.1">Anant Laxman Kanhere believed in armed resistance for India’s independence. He rejected moderate and constitutional approaches as ineffective. British oppression and slow reforms fueled his commitment to direct action. Influenced by global liberation movements, he supported armed rebellion. His assassination of A.M.T. Jackson reflected his ideology. He saw violent resistance as necessary to force colonial recognition of Indian demands.</string>
+    <string name="anant_heading30.2">Hindu Nationalism and Maratha Pride</string>
+    <string name="anant_title30.2">His Maratha identity and Hindu nationalism shaped Kanhere’s ideology. He viewed the Maratha legacy as a historical resistance against foreign rule. His fight for independence was linked to upholding Maratha pride. He embraced Hindu nationalism, emphasising cultural and religious revival. His revolutionary actions were tied to a mission of national and spiritual resurgence. His ideology resonated with many seeking to reclaim India’s cultural identity.</string>
+
+    //British Colonial Response to Revolutionary Movements
+    <string name="anant_heading31">British Colonial Response to Revolutionary Movements</string>
+    <string name="anant_heading31.1">Government Reactions</string>
+    <string name="anant_title31.1">The British swiftly responded to revolutionary actions like Anant Laxman Kanhere’s assassination of A.M.T. Jackson. Authorities increased surveillance, expanded arrests, imposed punitive actions, and enacted repressive laws. They aimed to suppress the growing insurgency and maintain control over India.</string>
+    <string name="anant_heading31.1.1">Increased Surveillance</string>
+    <string name="anant_title31.1.1">After Kanhere’s actions, British authorities intensified intelligence gathering. They deployed more spies within nationalist circles and monitored suspected revolutionaries. This created fear among activists, forcing them to operate secretly. The focus on surveillance disrupted revolutionary groups significantly.</string>
+    <string name="anant_heading31.1.2">Expanded Arrest Patterns</string>
+    <string name="anant_title31.1.2">The colonial government systematically detained individuals linked to revolutionary activities—raids on hideouts led to mass arrests, including sympathisers. By expanding the scope of arrests, British authorities aimed to dismantle revolutionary networks and instil fear.</string>
+    <string name="anant_heading31.1.3">Punitive Actions</string>
+    <string name="anant_title31.1.3">Revolutionaries faced severe punishments, including long prison terms, exile, and public executions. These measures were designed to deter future rebellions. The British made examples of captured revolutionaries to reinforce their rule.</string>
+    <string name="anant_heading31.2">Repressive Laws</string>
+    <string name="anant_title31.2">The British expanded sedition laws to criminalise nationalist activities. Preventive detention laws allowed imprisonment without trial. Revolutionary organisations faced bans, censorship, and restrictions. Emergency regulations increased police powers for searches and curfews. These laws curtailed civil liberties to control growing nationalist unrest. The legal crackdown reflected the colonial government’s desperation to maintain dominance.</string>
+    <string name="anant_heading31.2.1">Increased Use of Sedition Charges</string>
+    <string name="anant_title31.2.1">The British expanded sedition laws to criminalise nationalist activities, speeches, and writings. This allowed them to suppress both revolutionary acts and criticism of colonial rule. Many nationalists were arrested under these charges.</string>
+    <string name="anant_heading31.2.2">Special Laws and Regulations</string>
+    <string name="anant_title31.2.2">Preventive detention laws enabled arrests without trial. The British also banned organisations, censored publications, and restricted public gatherings to weaken revolutionary movements and prevent uprisings.</string>
+    <string name="anant_heading31.2.3">Public Safety and Emergency Regulations</string>
+    <string name="anant_title31.2.3">Emergency regulations granted British authorities broad powers. These included curfews, searches, and restrictions on movement. Civil liberties were curbed under the pretext of maintaining public order.</string>
+
+    //Psychological and Emotional Aspects
+    <string name="anant_heading32">Psychological and\nEmotional Aspects</string>
+    <string name="anant_heading32.1">Kanhere’s Letters and Statements</string>
+    <string name="anant_title32.1">Kanhere’s writings reveal his strong ideological convictions and belief in violent resistance. He accepted the risks of his actions, believing in India’s freedom struggle. His words expressed clarity, commitment, and a sense of historical purpose.</string>
+    <string name="anant_heading32.1.1">Statements During Trial</string>
+    <string name="anant_title32.1.1">During his trial, Kanhere remained defiant and justified his actions. He framed his assassination of Jackson as a necessary step in India\'s struggle. His courtroom statements inspired many within the revolutionary movement.</string>
+    <string name="anant_heading32.2">Personal Sacrifice and Martyrdom</string>
+    <string name="anant_title32.2">Kanhere accepted death as the price of revolution. He was aware of the consequences but remained resolute. His execution symbolised ultimate sacrifice and strengthened the resolve of fellow revolutionaries.</string>
+    <string name="anant_heading32.2.1">Emotional Cost</string>
+    <string name="anant_title32.2.1">Facing execution, Kanhere experienced emotional struggles but prioritised the larger cause. He acknowledged the pain his actions would bring to loved ones but believed his sacrifice was essential for India\'s freedom.</string>
+    <string name="anant_heading32.2.2">Martyrdom as a Symbol</string>
+    <string name="anant_title32.2.2">Kanhere’s death became a symbol of resistance. His sacrifice inspired other revolutionaries and fueled the nationalistic movement. He was remembered as a fearless fighter willing to give his life for independence.</string>
+
+    //Legacy and Commemoration
+    <string name="anant_heading33">Legacy and Commemoration</string>
+    <string name="anant_heading33.1">Kanhere’s Place in History</string>
+    <string name="anant_title33.1">Indian historians celebrate Kanhere as a bold revolutionary who defied British rule. He is compared to freedom fighters like Bhagat Singh. His role in armed resistance is recognised as an important step in India’s independence movement.</string>
+    <string name="anant_heading33.1.1">British Historians’ View</string>
+    <string name="anant_title33.1.1">British narratives depict Kanhere as a dangerous insurgent rather than a hero. His assassination of Jackson is seen as a security threat, and British historians focus on colonial measures taken to suppress such uprisings.</string>
+    <string name="anant_heading33.1.2">Memorials and Public Memory</string>
+    <string name="anant_title33.1.2"><b>Monuments and Memorials:</b> Kanhere is honoured through statues and plaques in Maharashtra. His birthplace and significant locations are preserved in his memory.\n\n<b>Public Events and Celebrations:</b> Annual gatherings and educational programs are held to commemorate his contributions.\n\n<b>Historical Education:</b> His story is included in textbooks, ensuring new generations learn about his role in India\'s independence struggle.</string>
+    <string name="anant_heading33.2">Cultural Representation</string>
+    <string name="anant_heading33.2.1">Literature</string>
+    <string name="anant_title33.2.1">Books and biographies highlight Kanhere’s courage and revolutionary activities. His life story is presented as an example of commitment to freedom.</string>
+    <string name="anant_heading33.2.2">Films and Plays</string>
+    <string name="anant_title33.2.2">His life has been dramatised in films and theatre productions, focusing on key moments like the assassination and trial. These portrayals bring his legacy to a wider audience.</string>
+    <string name="anant_heading33.2.3">Popular Culture</string>
+    <string name="anant_title33.2.3">Documentaries and exhibitions celebrate Kanhere’s contributions, keeping his memory alive. His sacrifice continues to inspire discussions about patriotism and resistance.</string>
+
+
+    //Radical Revolutionary Vision
+    <string name="anant_heading34">Radical Revolutionary Vision</string>
+    <string name="anant_title34">Kanhere believed in armed struggle as the only way to challenge British rule. His assassination of Jackson was a strategic attack against colonial oppression. His sacrifice influenced later revolutionaries like Bhagat Singh and Chandrashekhar Azad. Kanhere’s defiance set an example for future fighters who resisted British rule. His unwavering commitment and ultimate sacrifice cemented his place in India’s revolutionary history.</string>
+    <string name="anant_heading34.1">Inspiration for Future Revolutionaries</string>
+    <string name="anant_title34.1">Kanhere\'s legacy symbolises resistance against injustice and oppression. His courage inspires modern activists and political leaders. His willingness to sacrifice for his beliefs resonates with ongoing social struggles. His story reinforces the idea that true commitment demands personal sacrifice. Activists today see him as a fearless leader who stood against oppression. His legacy remains a model for contemporary political engagement.</string>
+    <string name="anant_heading34.2">Inspiration for Modern-Day Political Movements</string>
+    <string name="anant_title34.2">Kanhere\'s legacy symbolises resistance against injustice and oppression. His courage inspires modern activists and political leaders. His willingness to sacrifice for his beliefs resonates with ongoing social struggles. His story reinforces the idea that true commitment demands personal sacrifice. Activists today see him as a fearless leader who stood against oppression. His legacy remains a model for contemporary political engagement.</string>
+    <string name="anant_heading34.3">Cultural and Educational Impact</string>
+    <string name="anant_title34.3">Kanhere’s contributions are preserved through literature, films, and public memorials. Educational programs highlight his role in the independence movement. His story is made accessible to new generations through cultural representations. These portrayals educate the public about India’s fight for independence. They also showcase the diverse strategies used by revolutionaries. Kanhere’s legacy remains an integral part of India\'s historical narrative.</string>
+    <string name="anant_heading34.4">Enduring Symbol of Freedom</string>
+    <string name="anant_title34.4">Kanhere stands as a lasting symbol of freedom and justice. His story reflects India’s broader struggle against colonial rule. His ideals of courage, dedication, and defiance still inspire movements today. His legacy encourages the ongoing fight for equity and human rights. His life proves that challenging injustice requires unwavering commitment. His influence continues to shape political and social activism.</string>
+
+    <string name="back">Back</string>
+
+</resources>

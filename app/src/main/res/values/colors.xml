@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FD0100</color>
+    <color name="bottom_nav_color">#020C2A</color>
+    <color name="toolbar_color">#F3F3F3</color>
+    <color name="drawer_into">#020C2A</color>
+    <color name="drawer_bg">#E6720F</color>
+    <color name="text_orange">#FF7300</color>
+    <color name="drawer_item_bg">#E53601</color>
+    <color name="main_heading">#FD7301</color>
+    <color name="back_button">#4C0FB7</color>FFBC02
+    <color name="drawer_sub_item_bg">#FFBC02</color>
+
+</resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:paddingHorizontal="@dimen/_15sdp"
+    tools:context=".view.fragments.anantlaxman.AnantIntroFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        android:scrollbarSize="@dimen/_8sdp"
+        android:fadeScrollbars="false"
+        
+        app:layout_constraintBottom_toTopOf="@id/backBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:paddingVertical="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_bold"
+                android:text="@string/anant_full_name"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_16ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/young_revo"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_para1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/laila_semibold"
+                android:text="@string/anant_heading1"
+                android:textColor="@color/text_orange"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/laila_semibold"
+                android:text="@string/anant_heading2"
+                android:textColor="@color/text_orange"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/laila_semibold"
+                android:text="@string/anant_heading3"
+                android:textColor="@color/text_orange"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/laila_semibold"
+                android:text="@string/anant_heading4"
+                android:textColor="@color/text_orange"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/laila_semibold"
+                android:text="@string/anant_heading5"
+                android:textColor="@color/text_orange"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/laila_semibold"
+                android:text="@string/anant_heading6"
+                android:textColor="@color/text_orange"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title6"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/laila_semibold"
+                android:text="@string/anant_heading7"
+                android:textColor="@color/text_orange"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title7"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/laila_semibold"
+                android:text="@string/anant_heading8"
+                android:textColor="@color/text_orange"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title8"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/laila_semibold"
+                android:textColor="@color/text_orange"
+                android:text="@string/anant_heading9"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title9"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/backBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:background="@color/white"
+        android:textColor="@color/back_button"
+        android:fontFamily="@font/laila_semibold"
+        android:textSize="@dimen/_9ssp"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:paddingVertical="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

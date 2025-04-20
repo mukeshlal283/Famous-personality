@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anant_nav_graph"
+    app:startDestination="@id/anantHomeFragment">
+
+    <fragment
+        android:id="@+id/anantHomeFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantHomeFragment"
+        android:label="fragment_anant_home"
+        tools:layout="@layout/fragment_anant_home" >
+        <action
+            android:id="@+id/action_anantHomeFragment_to_anantIntroFragment"
+            app:destination="@id/anantIntroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/anantIntroFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantIntroFragment"
+        android:label="fragment_anant_intro"
+        tools:layout="@layout/fragment_anant_intro" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/anantAMTJacksonFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantAMTJacksonFragment"
+        android:label="fragment_anant_a_m_t_jackson"
+        tools:layout="@layout/fragment_anant_a_m_t_jackson" />
+    <fragment
+        android:id="@+id/anantAssassinationFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantAssassinationFragment"
+        android:label="fragment_anant_assassination"
+        tools:layout="@layout/fragment_anant_assassination" />
+    <fragment
+        android:id="@+id/anantBritishResponseFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantBritishResponseFragment"
+        android:label="fragment_anant_british_response"
+        tools:layout="@layout/fragment_anant_british_response" />
+    <fragment
+        android:id="@+id/anantEarlyLifeFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantEarlyLifeFragment"
+        android:label="fragment_anant_early_life"
+        tools:layout="@layout/fragment_anant_early_life" />
+    <fragment
+        android:id="@+id/anantIdeologicalBeliefFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantIdeologicalBeliefFragment"
+        android:label="fragment_anant_ideological_belief"
+        tools:layout="@layout/fragment_anant_ideological_belief" />
+    <fragment
+        android:id="@+id/anantImpactRevolutionaryFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantImpactRevolutionaryFragment"
+        android:label="fragment_anant_impact_revolutionary"
+        tools:layout="@layout/fragment_anant_impact_revolutionary" />
+    <fragment
+        android:id="@+id/anantLegacyFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantLegacyFragment"
+        android:label="fragment_anant_legacy"
+        tools:layout="@layout/fragment_anant_legacy" />
+    <fragment
+        android:id="@+id/anantMediaAndPublicFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantMediaAndPublicFragment"
+        android:label="fragment_anant_media_and_public"
+        tools:layout="@layout/fragment_anant_media_and_public" />
+    <fragment
+        android:id="@+id/anantPsycologocalFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantPsycologocalFragment"
+        android:label="fragment_anant_psycologocal"
+        tools:layout="@layout/fragment_anant_psycologocal" />
+    <fragment
+        android:id="@+id/anantRadicalRevolutionaryVisionFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantRadicalRevolutionaryVisionFragment"
+        android:label="fragment_anant_radical_revolutionary_vision"
+        tools:layout="@layout/fragment_anant_radical_revolutionary_vision" />
+    <fragment
+        android:id="@+id/anantRevolutionaryFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantRevolutionaryFragment"
+        android:label="fragment_anant_revolutionary"
+        tools:layout="@layout/fragment_anant_revolutionary" />
+    <fragment
+        android:id="@+id/anantSymbolOfYouthFragment"
+        android:name="com.example.famouspersonality.view.fragments.anantlaxman.AnantSymbolOfYouthFragment"
+        android:label="fragment_anant_symbol_of_youth"
+        tools:layout="@layout/fragment_anant_symbol_of_youth" />
+
+</navigation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appToolbar"
+    android:layout_width="match_parent"
+    android:background="@color/toolbar_color"
+    android:layout_height="?attr/actionBarSize">
+    
+
+    <ImageButton
+        android:id="@+id/drawer_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:src="@drawable/round_menu_24"
+        android:background="@android:color/transparent"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toolbar_heading"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/laila_bold"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/toolbar_logo"
+        android:layout_gravity="center|end" />
+
+</androidx.appcompat.widget.Toolbar>

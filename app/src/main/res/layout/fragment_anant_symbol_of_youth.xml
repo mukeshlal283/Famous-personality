@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:paddingHorizontal="@dimen/_15sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragments.anantlaxman.AnantSymbolOfYouthFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        android:scrollbarSize="@dimen/_8sdp"
+        android:fadeScrollbars="false"
+        app:layout_constraintBottom_toTopOf="@id/backBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:paddingVertical="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_bold"
+                android:text="@string/anant_heading28"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_16ssp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title28"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/laila_semibold"
+                android:text="@string/anant_heading29"
+                android:textColor="@color/text_orange"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_medium"
+                android:text="@string/anant_heading29.1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title29.1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_medium"
+                android:text="@string/anant_heading29.2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title29.2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_medium"
+                android:text="@string/anant_heading29.3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/laila_regular"
+                android:text="@string/anant_title29.3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/backBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:background="@color/white"
+        android:textColor="@color/back_button"
+        android:fontFamily="@font/laila_semibold"
+        android:textSize="@dimen/_9ssp"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:paddingVertical="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
