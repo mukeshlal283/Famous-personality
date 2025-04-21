@@ -9,8 +9,9 @@
     <string name="anant_age">Age 18 years</string>
     <string name="anant_drawer_intro">Anant Laxman Kanhere\'s sacrifice left an indelible mark on India’s struggle for independence. His courage, commitment, and willingness to embrace martyrdom for the cause of freedom remain a powerful inspiration for generations to come.</string>
     <string name="change_language">Change Language</string>
-    <string name="language_hindi">हिन्दी</string>
+    <string name="language_hindi" translatable="false">हिन्दी</string>
     <string name="language_english" translatable="false">English</string>
+    <string name="language_marathi" translatable="false">मराठी</string>
 
     <string name="anant_drawer_1">Introduction to Anant Laxman Kanhere</string>
     <string name="anant_drawer_2">Kanhere’s Early Life &amp; Revolutionary Roots</string>

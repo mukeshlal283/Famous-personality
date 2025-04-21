@@ -3,6 +3,7 @@ package com.example.famouspersonality.view
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.window.OnBackInvokedDispatcher
@@ -44,6 +45,7 @@ class AnantLaxmanActivity : AppCompatActivity() {
     private lateinit var currentFragment: Fragment
     private lateinit var hindiBtn: Button
     private lateinit var englishBtn: Button
+    private lateinit var marathiBtn: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -65,6 +67,11 @@ class AnantLaxmanActivity : AppCompatActivity() {
 
         englishBtn.setOnClickListener {
             setLocale("en")
+            recreate()
+        }
+
+        marathiBtn.setOnClickListener {
+            setLocale("mr")
             recreate()
         }
 
@@ -155,6 +162,25 @@ class AnantLaxmanActivity : AppCompatActivity() {
         val config = Configuration()
         config.locale = locale
         baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)
+
+        val currentLang = getCurrentLanguage()
+        if (currentLang == "en") {
+            englishBtn.visibility = View.GONE
+            hindiBtn.visibility = View.VISIBLE
+            marathiBtn.visibility = View.VISIBLE
+        } else if (currentLang == "hi") {
+            englishBtn.visibility = View.VISIBLE
+            hindiBtn.visibility = View.GONE
+            marathiBtn.visibility = View.VISIBLE
+        } else if (currentLang == "mr") {
+            englishBtn.visibility = View.VISIBLE
+            hindiBtn.visibility = View.VISIBLE
+            marathiBtn.visibility = View.GONE
+        }
+    }
+
+    private fun getCurrentLanguage(): String {
+        return Locale.getDefault().language
     }
 
 

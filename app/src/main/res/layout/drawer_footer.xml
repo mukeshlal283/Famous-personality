@@ -29,22 +29,31 @@
 
             <Button
                 android:id="@+id/btnHindi"
-                android:layout_width="wrap_content"
+                android:layout_width="@dimen/_110sdp"
                 android:layout_height="wrap_content"
                 android:text="@string/language_hindi"
-                android:fontFamily="@font/laila_regular"
+                android:visibility="visible"
+                android:fontFamily="@font/laila_medium"
                 android:backgroundTint="@color/red"
-                android:paddingHorizontal="@dimen/_40sdp"
                 android:layout_marginEnd="@dimen/_10sdp" />
 
             <Button
-                android:id="@+id/btnMarathi"
-                android:layout_width="wrap_content"
+                android:id="@+id/btnEnglish"
+                android:layout_width="@dimen/_110sdp"
                 android:layout_height="wrap_content"
                 android:text="@string/language_english"
-                android:fontFamily="@font/laila_regular"
-                android:paddingHorizontal="@dimen/_40sdp"
-                android:backgroundTint="@color/red"/>
+                android:visibility="visible"
+                android:fontFamily="@font/laila_medium"
+                android:backgroundTint="@color/red" />
+
+            <Button
+                android:id="@+id/btnMarathi"
+                android:layout_width="@dimen/_110sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_marathi"
+                android:visibility="gone"
+                android:fontFamily="@font/laila_medium"
+                android:backgroundTint="@color/red" />
 
         </LinearLayout>
 
