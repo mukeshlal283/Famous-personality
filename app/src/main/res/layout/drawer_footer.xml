@@ -32,28 +32,27 @@
                 android:layout_width="@dimen/_110sdp"
                 android:layout_height="wrap_content"
                 android:text="@string/language_hindi"
-                android:visibility="visible"
                 android:fontFamily="@font/laila_medium"
                 android:backgroundTint="@color/red"
-                android:layout_marginEnd="@dimen/_10sdp" />
+                android:layout_marginHorizontal="@dimen/_5sdp" />
 
             <Button
                 android:id="@+id/btnEnglish"
                 android:layout_width="@dimen/_110sdp"
                 android:layout_height="wrap_content"
                 android:text="@string/language_english"
-                android:visibility="visible"
                 android:fontFamily="@font/laila_medium"
-                android:backgroundTint="@color/red" />
+                android:backgroundTint="@color/red"
+                android:layout_marginHorizontal="@dimen/_5sdp"/>
 
             <Button
                 android:id="@+id/btnMarathi"
                 android:layout_width="@dimen/_110sdp"
                 android:layout_height="wrap_content"
                 android:text="@string/language_marathi"
-                android:visibility="gone"
                 android:fontFamily="@font/laila_medium"
-                android:backgroundTint="@color/red" />
+                android:backgroundTint="@color/red"
+                android:layout_marginHorizontal="@dimen/_5sdp"/>
 
         </LinearLayout>
 

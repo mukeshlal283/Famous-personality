@@ -43,9 +43,9 @@ class AnantLaxmanActivity : AppCompatActivity() {
     private lateinit var closeButton: ImageButton
     private lateinit var adapter: DrawerMenuAdapter
     private lateinit var currentFragment: Fragment
-    private lateinit var hindiBtn: Button
-    private lateinit var englishBtn: Button
-    private lateinit var marathiBtn: Button
+    private lateinit var btnEnglish: Button
+    private lateinit var btnHindi: Button
+    private lateinit var btnMarathi: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -55,26 +55,26 @@ class AnantLaxmanActivity : AppCompatActivity() {
 
         changeFragment(AnantHomeFragment())
 
-        openAndCloseDrawer()
+        btnEnglish = findViewById(R.id.btnEnglish)
+        btnHindi = findViewById(R.id.btnHindi)
+        btnMarathi = findViewById(R.id.btnMarathi)
 
-        hindiBtn = findViewById(R.id.btnHindi)
-        englishBtn = findViewById(R.id.btnMarathi)
+        val currentLang = Locale.getDefault().language
+        updateLanguageButtons(currentLang)
 
-        hindiBtn.setOnClickListener {
+        btnHindi.setOnClickListener {
             setLocale("hi")
-            recreate()
         }
 
-        englishBtn.setOnClickListener {
+        btnEnglish.setOnClickListener {
             setLocale("en")
-            recreate()
         }
 
-        marathiBtn.setOnClickListener {
+        btnMarathi.setOnClickListener {
             setLocale("mr")
-            recreate()
         }
 
+        openAndCloseDrawer()
 
         val menuItemList = mutableListOf<Any> ()
         menuItemList.add(DrawerMenuItem(getString(R.string.anant_drawer_1), AnantIntroFragment()))
@@ -159,28 +159,29 @@ class AnantLaxmanActivity : AppCompatActivity() {
     private fun setLocale(languageCode: String) {
         val locale = Locale(languageCode)
         Locale.setDefault(locale)
-        val config = Configuration()
-        config.locale = locale
-        baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)
+        val config = resources.configuration
+        config.setLocale(locale)
+        resources.updateConfiguration(config, resources.displayMetrics)
 
-        val currentLang = getCurrentLanguage()
-        if (currentLang == "en") {
-            englishBtn.visibility = View.GONE
-            hindiBtn.visibility = View.VISIBLE
-            marathiBtn.visibility = View.VISIBLE
-        } else if (currentLang == "hi") {
-            englishBtn.visibility = View.VISIBLE
-            hindiBtn.visibility = View.GONE
-            marathiBtn.visibility = View.VISIBLE
-        } else if (currentLang == "mr") {
-            englishBtn.visibility = View.VISIBLE
-            hindiBtn.visibility = View.VISIBLE
-            marathiBtn.visibility = View.GONE
-        }
+        recreate()
     }
 
-    private fun getCurrentLanguage(): String {
-        return Locale.getDefault().language
+    private fun updateLanguageButtons(currentLang: String) {
+        val btnEnglish = findViewById<Button>(R.id.btnEnglish)
+        val btnHindi = findViewById<Button>(R.id.btnHindi)
+        val btnMarathi = findViewById<Button>(R.id.btnMarathi)
+
+        // Show all initially
+        btnEnglish.visibility = View.VISIBLE
+        btnHindi.visibility = View.VISIBLE
+        btnMarathi.visibility = View.VISIBLE
+
+        // Hide the current language button
+        when (currentLang) {
+            "en" -> btnEnglish.visibility = View.GONE
+            "hi" -> btnHindi.visibility = View.GONE
+            "mr" -> btnMarathi.visibility = View.GONE
+        }
     }
 
 
