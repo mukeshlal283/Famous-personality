@@ -1,22 +1,19 @@
 package com.example.famouspersonality.view
 
-import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
-import android.window.OnBackInvokedDispatcher
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
-import androidx.navigation.Navigation
-import androidx.navigation.ui.NavigationUI
 import com.example.famouspersonality.R
 import com.example.famouspersonality.adapters.DrawerMenuAdapter
 import com.example.famouspersonality.databinding.ActivityAnantLaxmanBinding
 import com.example.famouspersonality.models.ChildMenu
 import com.example.famouspersonality.models.DrawerMenuItem
 import com.example.famouspersonality.view.fragments.anantlaxman.AnantAMTJacksonFragment
+import com.example.famouspersonality.view.fragments.anantlaxman.AnantArrestTrial
 import com.example.famouspersonality.view.fragments.anantlaxman.AnantAssassinationFragment
 import com.example.famouspersonality.view.fragments.anantlaxman.AnantBottomFifthFragment
 import com.example.famouspersonality.view.fragments.anantlaxman.AnantBottomFourthFragment
@@ -80,7 +77,7 @@ class AnantLaxmanActivity : AppCompatActivity() {
         menuItemList.add(DrawerMenuItem(getString(R.string.anant_drawer_1), AnantIntroFragment()))
         menuItemList.add(DrawerMenuItem(getString(R.string.anant_drawer_2), AnantEarlyLifeFragment()))
         menuItemList.add(DrawerMenuItem(getString(R.string.anant_drawer_3), AnantRevolutionaryFragment()))
-        menuItemList.add(DrawerMenuItem(getString(R.string.anant_drawer_4,), null, true, listOf(ChildMenu(getString(R.string.anant_drawer_4_1), AnantAMTJacksonFragment()), ChildMenu(getString(R.string.anant_drawer_4_2), AnantAssassinationFragment()), ChildMenu(getString(R.string.anant_drawer_4_3), AnantMediaAndPublicFragment()), ChildMenu(getString(R.string.anant_drawer_4_4), AnantImpactRevolutionaryFragment()))))
+        menuItemList.add(DrawerMenuItem(getString(R.string.anant_drawer_4,), null, true, listOf(ChildMenu(getString(R.string.anant_drawer_4_1), AnantAMTJacksonFragment()), ChildMenu(getString(R.string.anant_drawer_4_2), AnantAssassinationFragment()), ChildMenu(getString(R.string.anant_drawer_4_5), AnantArrestTrial()), ChildMenu(getString(R.string.anant_drawer_4_3), AnantMediaAndPublicFragment()), ChildMenu(getString(R.string.anant_drawer_4_4), AnantImpactRevolutionaryFragment()))))
         menuItemList.add(DrawerMenuItem(getString(R.string.anant_drawer_5), AnantSymbolOfYouthFragment()))
         menuItemList.add(DrawerMenuItem(getString(R.string.anant_drawer_6), AnantIdeologicalBeliefFragment()))
         menuItemList.add(DrawerMenuItem(getString(R.string.anant_drawer_7), AnantBritishResponseFragment()))
@@ -104,8 +101,6 @@ class AnantLaxmanActivity : AppCompatActivity() {
             }
             true
         }
-
-
 
 //        NavigationUI.setupWithNavController(binding.bottomNavigationView,
 //            Navigation.findNavController(this, R.id.frameLayoutContainer)

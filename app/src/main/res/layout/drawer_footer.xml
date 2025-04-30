@@ -32,6 +32,7 @@
                 android:layout_width="@dimen/_110sdp"
                 android:layout_height="wrap_content"
                 android:text="@string/language_hindi"
+                android:textColor="@color/white"
                 android:fontFamily="@font/laila_medium"
                 android:backgroundTint="@color/red"
                 android:layout_marginHorizontal="@dimen/_5sdp" />
@@ -41,6 +42,7 @@
                 android:layout_width="@dimen/_110sdp"
                 android:layout_height="wrap_content"
                 android:text="@string/language_english"
+                android:textColor="@color/white"
                 android:fontFamily="@font/laila_medium"
                 android:backgroundTint="@color/red"
                 android:layout_marginHorizontal="@dimen/_5sdp"/>
@@ -50,6 +52,7 @@
                 android:layout_width="@dimen/_110sdp"
                 android:layout_height="wrap_content"
                 android:text="@string/language_marathi"
+                android:textColor="@color/white"
                 android:fontFamily="@font/laila_medium"
                 android:backgroundTint="@color/red"
                 android:layout_marginHorizontal="@dimen/_5sdp"/>
