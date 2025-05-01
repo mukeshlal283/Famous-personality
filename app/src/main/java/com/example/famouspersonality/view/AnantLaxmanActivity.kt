@@ -33,7 +33,7 @@ import com.example.famouspersonality.view.fragments.anantlaxman.AnantRevolutiona
 import com.example.famouspersonality.view.fragments.anantlaxman.AnantSymbolOfYouthFragment
 import java.util.Locale
 
-class AnantLaxmanActivity : AppCompatActivity() {
+class AnantLaxmanActivity : BaseActivity() {
 
     private lateinit var binding: ActivityAnantLaxmanBinding
     private lateinit var menuButton: ImageButton
