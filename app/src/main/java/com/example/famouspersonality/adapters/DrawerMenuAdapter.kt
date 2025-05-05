@@ -63,13 +63,13 @@ class DrawerMenuAdapter(private val items: MutableList<Any>, val changeFragment:
                         collapseItem(position, item)
                     }
                 } else {
+                    changeFragment(item.fragment!!, item.fCode)
                     val c = items[3] as DrawerMenuItem
                     if (c.isExpanded) {
                         collapseItem(3, c)
                         c.isExpanded = !c.isExpanded
                         notifyItemChanged(3)
                     }
-                    changeFragment(item.fragment!!, item.fCode)
                 }
 
 
