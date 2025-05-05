@@ -1,5 +1,6 @@
 package com.example.famouspersonality.adapters
 
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -7,7 +8,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.example.famouspersonality.databinding.LanguageSelectItemBinding
 import com.example.famouspersonality.models.Language
 
-class LanguageAdapter(val languageList: ArrayList<Language>,val viewPager: ViewPager2, val openActivity: () -> Unit): RecyclerView.Adapter<LanguageAdapter.LanguageViewHolder>() {
+class LanguageAdapter(val languageList: ArrayList<Language>, val viewPager: ViewPager2, val openActivity: (Bundle) -> Unit): RecyclerView.Adapter<LanguageAdapter.LanguageViewHolder>() {
 
     class LanguageViewHolder(val binding: LanguageSelectItemBinding): RecyclerView.ViewHolder(binding.root)
 
@@ -33,7 +34,9 @@ class LanguageAdapter(val languageList: ArrayList<Language>,val viewPager: ViewP
         }
 
         holder.binding.languageButton.setOnClickListener {
-            openActivity()
+            val bundle = Bundle()
+            bundle.putString("lCode", data.languageCode)
+            openActivity(bundle)
         }
 
     }

@@ -20,6 +20,12 @@ class AnantBottomFifthFragment : Fragment() {
 
         binding = FragmentAnantBottomFifthBinding.inflate(layoutInflater)
 
+        binding.readMore.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction()
+                .replace(R.id.frameLayoutContainer, AnantMediaAndPublicFragment())
+                .commit()
+        }
+
         return binding.root
     }
 

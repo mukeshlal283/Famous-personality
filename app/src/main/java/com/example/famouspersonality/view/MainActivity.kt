@@ -24,9 +24,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val languageList = ArrayList<Language>()
-        languageList.add(Language("अनंत","लक्ष्मण कन्हेरे", "हिन्दी"))
-        languageList.add(Language("अनंत","लक्ष्मण कन्हेरे", "मराठी"))
-        languageList.add(Language("ANANT","LAKSHMAN KANHERE", "ENGLISH"))
+        languageList.add(Language("अनंत","लक्ष्मण कन्हेरे", "हिन्दी", "hi"))
+        languageList.add(Language("अनंत","लक्ष्मण कन्हेरे", "मराठी", "mr"))
+        languageList.add(Language("ANANT","LAKSHMAN KANHERE", "ENGLISH", "en"))
 
         adapter = LanguageAdapter(languageList, binding.viewPager, ::openActivity)
 
@@ -57,8 +57,9 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    private fun openActivity() {
+    private fun openActivity(bundle: Bundle) {
         val intent = Intent(this, AnantLaxmanActivity::class.java)
+        intent.putExtras(bundle)
         startActivity(intent)
         finish()
     }

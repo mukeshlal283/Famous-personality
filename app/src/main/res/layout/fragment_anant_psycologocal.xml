@@ -39,7 +39,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_25sdp"
                 android:fontFamily="@font/laila_semibold"
                 android:text="@string/anant_heading32.1"
                 android:textColor="@color/text_orange"

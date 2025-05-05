@@ -11,7 +11,7 @@ import com.example.famouspersonality.R
 import com.example.famouspersonality.models.ChildMenu
 import com.example.famouspersonality.models.DrawerMenuItem
 
-class DrawerMenuAdapter(private val items: MutableList<Any>, val changeFragment: (Fragment) -> Unit)
+class DrawerMenuAdapter(private val items: MutableList<Any>, val changeFragment: (Fragment, String?) -> Unit)
     :RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     companion object {
@@ -58,21 +58,35 @@ class DrawerMenuAdapter(private val items: MutableList<Any>, val changeFragment:
                     notifyItemChanged(position)
 
                     if (item.isExpanded) {
-                        items.addAll(position + 1, item.subItems)
-                        notifyItemRangeInserted(position + 1, item.subItems.size)
+                        expandItem(position, item)
                     } else {
-                        items.subList(position + 1, position + 1 + item.subItems.size).clear()
-                        notifyItemRangeRemoved(position + 1, item.subItems.size)
+                        collapseItem(position, item)
                     }
                 } else {
-                    changeFragment(item.fragment!!)
+                    val c = items[3] as DrawerMenuItem
+                    if (c.isExpanded) {
+                        collapseItem(3, c)
+                        c.isExpanded = !c.isExpanded
+                        notifyItemChanged(3)
+                    }
+                    changeFragment(item.fragment!!, item.fCode)
                 }
+
+
             }
 
         } else if (holder is ChildViewHolder) {
             val subItem = items[position] as ChildMenu
             holder.itemView.setOnClickListener {
-                changeFragment(subItem.fragment!!)
+                changeFragment(subItem.fragment!!, subItem.fCode)
+                val c = items[3] as DrawerMenuItem
+                if (c.isExpanded) {
+                    collapseItem(3, c)
+                    c.isExpanded = !c.isExpanded
+                    notifyItemChanged(3)
+                }
+
+
             }
             holder.bind(subItem)
         }
@@ -89,6 +103,16 @@ class DrawerMenuAdapter(private val items: MutableList<Any>, val changeFragment:
 //
 //            }
 //        }
+    }
+
+    private fun collapseItem(position: Int, item: DrawerMenuItem) {
+        items.subList(position + 1, position + 1 + item.subItems.size).clear()
+        notifyItemRangeRemoved(position + 1, item.subItems.size)
+    }
+
+    private fun expandItem(position: Int, item: DrawerMenuItem) {
+        items.addAll(position + 1, item.subItems)
+        notifyItemRangeInserted(position + 1, item.subItems.size)
     }
 
     class ChildViewHolder(itemView: View?) : RecyclerView.ViewHolder(itemView!!) {
@@ -109,6 +133,7 @@ class DrawerMenuAdapter(private val items: MutableList<Any>, val changeFragment:
         }
 
     }
+
 
 
 }

@@ -18,6 +18,12 @@ class AnantBottomSecondFragment : Fragment() {
     ): View? {
         binding = FragmentAnantBottomSecondBinding.inflate(layoutInflater)
 
+        binding.readMore.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction()
+                .replace(R.id.frameLayoutContainer, AnantRevolutionaryFragment())
+                .commit()
+        }
+
         return binding.root
     }
 

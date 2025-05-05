@@ -19,6 +19,12 @@ class AnantBottomThirdFragment : Fragment() {
 
         binding = FragmentAnantBottomThirdBinding.inflate(layoutInflater)
 
+        binding.readMore.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction()
+                .replace(R.id.frameLayoutContainer, AnantAMTJacksonFragment())
+                .commit()
+        }
+
         return binding.root
     }
 

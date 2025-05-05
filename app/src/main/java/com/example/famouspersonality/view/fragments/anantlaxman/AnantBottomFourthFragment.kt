@@ -19,6 +19,12 @@ class AnantBottomFourthFragment : Fragment() {
 
         binding = FragmentAnantBottomFourthBinding.inflate(layoutInflater)
 
+        binding.readMore.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction()
+                .replace(R.id.frameLayoutContainer, AnantSymbolOfYouthFragment())
+                .commit()
+        }
+
         return binding.root
     }
 
