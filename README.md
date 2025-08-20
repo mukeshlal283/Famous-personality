@@ -1,4 +1,4 @@
- # Autobiography App
+ # Autobiography App (Multi-lingual)
 
 I developed an Autobiography App with an amazing and modern UI designed for a smooth user experience. The app is built with Drawer Navigation for seamless movement between different sections of the autobiography, making the content easily accessible.
 
