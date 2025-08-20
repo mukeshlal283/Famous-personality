@@ -14,7 +14,3 @@ I developed an Autobiography App with an amazing and modern UI designed for a sm
 * Navigation Drawer
 * Localization (Multi-language support)
 * Material Design UI
-
-![](/home/mukesh/Pictures/Screenshot from 2022-09-11 00-29-32.png)
-
-This project demonstrates my skills in Android development, UI design, localization (multi-language support), and navigation architecture.
